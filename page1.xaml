@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="Arvestus_Märt_Lehtmets.page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Arvestus_Märt_Lehtmets"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+
+        <Pivot>
+            <PivotItem Header="Item1">
+                <TextBlock Text="Content1" />
+            </PivotItem>
+            <PivotItem Header="Item2">
+                <TextBlock Text="Content2" />
+            </PivotItem>
+            <PivotItem Header="Item3">
+                <TextBlock Text="Content3" />
+            </PivotItem>
+            <PivotItem Header="Item4">
+                <TextBlock Text="Content4" />
+            </PivotItem>
+        </Pivot>
+
+
+
+
+
+        <!--
+        <NavigationView ItemInvoked="NavigationView_ItemInvoked" IsBackEnabled="True" BackRequested="NavigationView_BackRequested">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Account" Content="item1"></NavigationViewItem>
+                <NavigationViewItem Icon="Shop" Content="item2"></NavigationViewItem>
+                <NavigationViewItem Icon="Scan" Content="item3"></NavigationViewItem>
+                <NavigationViewItem Icon="ClearSelection" Content="item4"></NavigationViewItem>
+            </NavigationView.MenuItems>
+
+            <NavigationView.Content>
+                <Frame Name="contentframe" Margin="20"></Frame>
+            </NavigationView.Content>
+
+        </NavigationView>
+    -->
+    </Grid>
+</Page>
