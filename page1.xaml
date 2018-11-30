@@ -12,8 +12,11 @@
 
 
         <Pivot>
-            <PivotItem Header="Item1">
-                <TextBlock Text="Content1" />
+            <PivotItem  Header="Item1">
+                <StackPanel>
+                    <SymbolIcon Symbol="Accept"></SymbolIcon>
+                </StackPanel>
+
             </PivotItem>
             <PivotItem Header="Item2">
                 <TextBlock Text="Content2" />
